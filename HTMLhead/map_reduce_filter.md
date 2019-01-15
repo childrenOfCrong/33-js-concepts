@@ -4,13 +4,13 @@
 
 우선 무의식적으로 쓰기만 했던 map, filter, reduce를 사용하는 이유에 대해서 살펴봅시다.
 
-첫번째, 인덱스 (즉, array [i])를 사용할 필요가 없습니다.
-두번째, 원본 배열에서 전혀 상관이 없는 다른 값을 도출해내지 않습니다. 이는 즉 부작용이 최소화된다는 것을 뜻합니다.
-세번째, 힘들게 for 루프를 관리 할 필요가 없습니다.
-네번째, 힘들게 빈 배열을 만들고 그 안에 값을 넣을 필요가 없습니다.
-다섯번째, 무엇보다도 겁나 간지나잖아요!
+* 첫번째, 인덱스 (즉, array [i])를 사용할 필요가 없습니다.
+* 두번째, 원본 배열에서 전혀 상관이 없는 다른 값을 도출해내지 않습니다. 이는 즉 부작용이 최소화된다는 것을 뜻합니다.
+* 세번째, 힘들게 for 루프를 관리 할 필요가 없습니다.
+* 네번째, 힘들게 빈 배열을 만들고 그 안에 값을 넣을 필요가 없습니다.
+* 다섯번째, 무엇보다도 겁나 간지나잖아요!
 
-map의 폴리필
+* map의 폴리필
 
 ```javascript
 //map 폴리필
@@ -25,7 +25,7 @@ function map(arr, condition) {
 
 condition은 우리가 만들어주는 함수라고 볼 수 있습니다. filter도 위와같습니다.
 
-filter의 폴리필
+* filter의 폴리필
 
 ```javascript
 //filter 폴리필
@@ -42,7 +42,7 @@ function filter(arr, condition) {
 
 우리는 필터를 사용할 때 리턴값을 true혹은 false로 반환하게 만들어야 합니다. 그에 유의하여 폴리필을 짜면 위와 같습니다.
 
-reduce의 폴리필
+* reduce의 폴리필
 
 ```javascript
 //reduce폴리필
@@ -106,15 +106,15 @@ function map(arr, condition) {
 }
 ```
 
-첫번째로 우리는 새로운 배열을 만듭니다. `newArr = []`
-두번째로는 반복문을 돌기 시작하죠. 여기서 `condition`함수는 `(song) => song.name` 과 같습니다.
+* 첫번째로 우리는 새로운 배열을 만듭니다. `newArr = []`
+* 두번째로는 반복문을 돌기 시작하죠. 여기서 `condition`함수는 `(song) => song.name` 과 같습니다.
 `i`가 `0`인 반복문을 한번 돌아볼까요?
 
 `newArr.push(condition( { rank: 1, name: "YES OR YES", artist: "TWICE" },  0,  songArr))`
 
-자 여기서 `condition` 함수는 `song => song.name` 라고 했으니, 함수에서 첫번째 인자인 
-`{ rank: 1, name: "YES OR YES", artist: "TWICE" }` 만을 사용하며 
-song이 `{ rank: 1, name: "YES OR YES", artist: "TWICE" }` 이되고, `song.name` 은 `"YES OR YES"` 가 됩니다.
+* 자 여기서 `condition` 함수는 `song => song.name` 라고 했으니, 함수에서 첫번째 인자인 
+* `{ rank: 1, name: "YES OR YES", artist: "TWICE" }` 만을 사용하며 
+* song이 `{ rank: 1, name: "YES OR YES", artist: "TWICE" }` 이되고, `song.name` 은 `"YES OR YES"` 가 됩니다.
 
 이런 방식으로 반복문이 돌아서 결국엔 이런값이 나오게 되는 것입니다.
 
@@ -139,11 +139,11 @@ map 과 똑같이 진행하고, 바로 첫번째 반복문을 들어가서
 
 `if(condition({ rank: 1, name: "YES OR YES", artist: "TWICE" }, 0 , songArr))`
 
-여기서 `condition` 함수는 `song => song.artist.includes("존")` 입니다.
-그러므로 `condition` 함수는 함수에서 첫번째 인자인 `{ rank: 1, name: "YES OR YES", artist: "TWICE" }` 만을 사용하며
+여기서 `condition` 함수는 `song => song.artist.includes("존")` 입니다.  
+그러므로 `condition` 함수는 함수에서 첫번째 인자인 `{ rank: 1, name: "YES OR YES", artist: "TWICE" }` 만을 사용하며  
 song이 `{ rank: 1, name: "YES OR YES", artist: "TWICE" }` 가되고, `song.artist.includes("존")` 의 값은 false가 되겠죠. 그러므로 `newArr` 에는 `push`가 되지 않구요. 그리하여 이러한 결과값이 나오게 되는 것입니다.
 
-
+  
 
 그럼 마지막으로 `reduce` 에 대해서 알아봅시다. 예제는 저번에 만들었던 파일을 사용하겠습니다.
 
@@ -213,7 +213,7 @@ function parse(str) {
 console.log(JSON.stringify(parse(arr), null, 2));
 ```
 
-기억하시다시피 제이슨파서의 한 부분입니다.
+기억하시다시피 제이슨파서의 한 부분입니다.  
 그럼 위처럼 폴리필을 가져와서 하나하나 알아볼까요?
 
 ```javascript
@@ -299,10 +299,10 @@ function reduce(arr, condition, firVal) {
 }
 ```
 
-왜 `bef`가 `[]` 이고 `cur` 가  ` {type: "arrayOpen",value: "[",child: []]` 인지 알아보겠습니다.
+왜 `bef`가 `[]` 이고 `cur` 가  ` {type: "arrayOpen",value: "[",child: []]` 인지 알아보겠습니다.  
 
-자세히 살펴보시면 알겠지만 `reduce`의 인자로 원래의배열, 함수, 그리고 첫번째 값이 들어가긴했어요. 
-그렇게 되면 이 폴리필에서 
+자세히 살펴보시면 알겠지만 `reduce`의 인자로 원래의배열, 함수, 그리고 첫번째 값이 들어가긴했어요.  
+그렇게 되면 이 폴리필에서  
 
 1. `firVal` 는  `undefined` 가 아니기 때문에, 주어진 배열의 첫번째 값으로 `firVal` 값 즉 빈 배열이 `unshift(firVal)` 를 통해서 들어가게 됩니다.
 2. 그 이후에 첫번째 반복문을 돌며 `arr[0]`값, 즉 빈 배열이 `accumulatedValue` 로 들어가게 되고 그 값을 인자로 받아 condition 함수가 실행이됩니다. 여기서 condition 함수는 위에서 보셨죠? 그것으 인자로 `accumulatedValue..` 즉 ` []` , 그리고 `arr[1](i++이 되었으니까.)` 즉  ` {type: "arrayOpen",value: "[",child: []]` 이 들어가게 되겠죠
