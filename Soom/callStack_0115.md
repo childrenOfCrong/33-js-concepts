@@ -84,7 +84,7 @@ A **call stack** is a mechanism for an interpreter (like the JavaScript interpre
     ​	1) 휴대폰이 정지되어 인터넷으로 복구하려니 범용 공인인증서를 요구한다. 
     ​	2) 범용 공인인증서를 발급받으려 하니, 휴대번호 인증을 요구한다. 
 
-    ![íì¼:attachment/êµì°©/deadlock.jpg](https://s3.namuwikiusercontent.com/s/19ddbf5daa82d7d7a67051de77d4f6af646a00f916f7e9711d6c6c2749fc1f9c01238bdc1bd94d611af7e8b089b9865319b820bb569a8341262745cce1967b81e4418677ebf9ef558a80498af5c58b329acd69fc4c362e84142322c380d964f3)
+    ![img](https://s3.namuwikiusercontent.com/s/19ddbf5daa82d7d7a67051de77d4f6af646a00f916f7e9711d6c6c2749fc1f9c01238bdc1bd94d611af7e8b089b9865319b820bb569a8341262745cce1967b81e4418677ebf9ef558a80498af5c58b329acd69fc4c362e84142322c380d964f3)
 
 
 
