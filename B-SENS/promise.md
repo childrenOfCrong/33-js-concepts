@@ -12,9 +12,9 @@ setTimeout(() => {
 Promise.resolve("promise").then((res, rej) => console.log(res));
 ~~~
 
-// 각 라인의 순서
-// jop queue
-// micro microtask
+- 각 라인의 순서
+- jop queue
+- micro microtask
 
 
 ## promise all(실패 우선 연산)
