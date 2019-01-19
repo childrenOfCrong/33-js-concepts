@@ -3,47 +3,49 @@
   <a href="https://github.com/leonardomso/33"><img src="https://i.imgur.com/dsHmk6H.jpg" alt="33 Concepts Every JS Developer Should Know" width=200"></a>
   <br>
     <br>
-  33 Concepts Every JavaScript Developer Should Know
-  <br><br>
+  <33 Concepts Every JavaScript Developer Should Know>
+  <br>
+    <br>
+      <strong>주제별로 공부하고 질문하기 by codesquad </strong>
 </h1>
 
----
+# **Table of Contents**
 
-## Table of Contents
-
-1. **[Call Stack](#1-call-stack)** / 190115 숨
-2. **[Primitive Types](#2-primitive-types)** / 190122 카카
-3. **[Value Types and Reference Types](#3-value-types-and-reference-types)** / 190122 토르코
-4. **[Implicit, Explicit, Nominal, Structuring and Duck Typing](#4-implicit-explicit-nominal-structuring-and-duck-typing)** / 190122 비센스
-5. **[== vs === vs typeof](#5--vs--vs-typeof)** /190115 카카
-6. **[Function Scope, Block Scope and Lexical Scope](#6-function-scope-block-scope-and-lexical-scope)** / 190122 숨
-7. **[Expression vs Statement](#7-expression-vs-statement)** / 190122 헤드
-8. **[IIFE, Modules and Namespaces](#8-iife-modules-and-namespaces)**
-9. **[Message Queue and Event Loop](#9-message-queue-and-event-loop)** / 190110 비센스
-10. **[setTimeout, setInterval and requestAnimationFrame](#10-settimeout-setinterval-and-requestanimationframe)**
-11. **[JavaScript Engines](#11-javascript-engines)** / 190110 숨 && 카카
-12. **[Bitwise Operators, Type Arrays and Array Buffers](#12-bitwise-operators-type-arrays-and-array-buffers)**
-13. **[DOM and Layout Trees](#13-dom-and-layout-trees)** / 190110 헤드 && 토르코
-14. **[Factories and Classes](#14-factories-and-classes)**
-15. **[this, call, apply and bind](#15-this-call-apply-and-bind)**
-16. **[new, Constructor, instanceof and Instances](#16-new-constructor-instanceof-and-instances)**
-17. **[Prototype Inheritance and Prototype Chain](#17-prototype-inheritance-and-prototype-chain)**
-18. **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**
-19. **[map, reduce, filter](#19-map-reduce-filter)** / 190115 헤드
-20. **[Pure Functions, Side Effects and State Mutation](#20-pure-functions-side-effects-and-state-mutation)**
-21. **[Closures](#21-closures)** / 190115 토르코
-22. **[High Order Functions](#22-high-order-functions)**
-23. **[Recursion](#23-recursion)**
-24. **[Collections and Generators](#24-collections-and-generators)**
-25. **[Promises](#25-promises)** / 190115 비센스
-26. **[async/await](#26-asyncawait)**
-27. **[Data Structures](#27-data-structures)**
-28. **[Expensive Operation and Big O Notation](#28-expensive-operation-and-big-o-notation)**
-29. **[Algorithms](#29-algorithms)**
-30. **[Inheritance, Polymorphism and Code Reuse](#30-inheritance-polymorphism-and-code-reuse)**
-31. **[Design Patterns](#31-design-patterns)**
-32. **[Partial Applications, Currying, Compose and Pipe](#32-partial-applications-currying-compose-and-pipe)**
-33. **[Clean Code](#33-clean-code)**
+|no |      when      |        by       |                about                |
+|:-:|:---------------|:---------------:|:------------------------------------|
+|1|190115|숨|**[Call Stack](#1-call-stack)**|
+|2|190122|카카|**[Primitive Types](#2-primitive-types)**|
+|3|190122|토르코|**[Value Types and Reference Types](#3-value-types-and-reference-types)**|
+|4|190122|비센스|**[Implicit, Explicit, Nominal, Structuring and Duck Typing](#4-implicit-explicit-nominal-structuring-and-duck-typing)**|
+|5|190115|카카|**[== vs === vs typeof](#5--vs--vs-typeof)**|
+|6|190122|숨|**[Function Scope, Block Scope and Lexical Scope](#6-function-scope-block-scope-and-lexical-scope)**|
+|7|190122|헤드|**[Expression vs Statement](#7-expression-vs-statement)**|
+|8|||**[IIFE, Modules and Namespaces](#8-iife-modules-and-namespaces)**|
+|9|190110|비센스|**[Message Queue and Event Loop](#9-message-queue-and-event-loop)**|
+|10||| **[setTimeout, setInterval and requestAnimationFrame](#10-settimeout-setinterval-and-requestanimationframe)**|
+|11|190110|숨&카카|**[JavaScript Engines](#11-javascript-engines)**|
+|12||| **[Bitwise Operators, Type Arrays and Array Buffers](#12-bitwise-operators-type-arrays-and-array-buffers)**|
+|13|190110|헤드&토르코|**[DOM and Layout Trees](#13-dom-and-layout-trees)**|
+|14||| **[Factories and Classes](#14-factories-and-classes)**|
+|15||| **[this, call, apply and bind](#15-this-call-apply-and-bind)**|
+|16||| **[new, Constructor, instanceof and Instances](#16-new-constructor-instanceof-and-instances)**|
+|17||| **[Prototype Inheritance and Prototype Chain](#17-prototype-inheritance-and-prototype-chain)**|
+|18||| **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**|
+|19|190115|헤드| **[map, reduce, filter](#19-map-reduce-filter)**|
+|20||| **[Pure Functions, Side Effects and State Mutation](#20-pure-functions-side-effects-and-state-mutation)**|
+|21|190115|토르코|**[Closures](#21-closures)**|
+|22||| **[High Order Functions](#22-high-order-functions)**|
+|23||| **[Recursion](#23-recursion)**|
+|24||| **[Collections and Generators](#24-collections-and-generators)**|
+|25|190115|비센스| **[Promises](#25-promises)**|
+|26||| **[async/await](#26-asyncawait)**|
+|27||| **[Data Structures](#27-data-structures)**|
+|28||| **[Expensive Operation and Big O Notation](#28-expensive-operation-and-big-o-notation)**|
+|29||| **[Algorithms](#29-algorithms)**|
+|30||| **[Inheritance, Polymorphism and Code Reuse](#30-inheritance-polymorphism-and-code-reuse)**|
+|31||| **[Design Patterns](#31-design-patterns)**|
+|32||| **[Partial Applications, Currying, Compose and Pipe](#32-partial-applications-currying-compose-and-pipe)**|
+|33||| **[Clean Code](#33-clean-code)**|
 
 ---
 
