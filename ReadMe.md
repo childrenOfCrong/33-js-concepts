@@ -20,14 +20,14 @@
 |5|190115|카카|**[== vs === vs typeof](#5--vs--vs-typeof)**|
 |6|190122|숨|**[Function Scope, Block Scope and Lexical Scope](#6-function-scope-block-scope-and-lexical-scope)**|
 |7|190122|헤드|**[Expression vs Statement](#7-expression-vs-statement)**|
-|8|||**[IIFE, Modules and Namespaces](#8-iife-modules-and-namespaces)**|
+|8|190129|숨|**[IIFE, Modules and Namespaces](#8-iife-modules-and-namespaces)**|
 |9|190110|비센스|**[Message Queue and Event Loop](#9-message-queue-and-event-loop)**|
-|10||| **[setTimeout, setInterval and requestAnimationFrame](#10-settimeout-setinterval-and-requestanimationframe)**|
+|10|190129|헤드| **[setTimeout, setInterval and requestAnimationFrame](#10-settimeout-setinterval-and-requestanimationframe)**|
 |11|190110|숨&카카|**[JavaScript Engines](#11-javascript-engines)**|
-|12||| **[Bitwise Operators, Type Arrays and Array Buffers](#12-bitwise-operators-type-arrays-and-array-buffers)**|
+|12|190129|카카| **[Bitwise Operators, Type Arrays and Array Buffers](#12-bitwise-operators-type-arrays-and-array-buffers)**|
 |13|190110|헤드&토르코|**[DOM and Layout Trees](#13-dom-and-layout-trees)**|
-|14||| **[Factories and Classes](#14-factories-and-classes)**|
-|15||| **[this, call, apply and bind](#15-this-call-apply-and-bind)**|
+|14|190129|비센스| **[Factories and Classes](#14-factories-and-classes)**|
+|15|190129|토르코| **[this, call, apply and bind](#15-this-call-apply-and-bind)**|
 |16||| **[new, Constructor, instanceof and Instances](#16-new-constructor-instanceof-and-instances)**|
 |17||| **[Prototype Inheritance and Prototype Chain](#17-prototype-inheritance-and-prototype-chain)**|
 |18||| **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**|
