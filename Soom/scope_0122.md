@@ -2,7 +2,7 @@
 
 ### The set of rules that determines where and how a variable (identifier) can be looked-up.  (변수(=식별자)를 어디서 어떻게 찾아야 하는지 결정짓는 규칙))
 
-### if(!scope) 식별자 이름 충돌남...
+if(!scope) 식별자 이름 충돌남...
 
 
 ## **스코프 구분**
@@ -11,7 +11,7 @@
 
 
 ### **Global Scope (전역 스코프)**
-- 코드 어디에서나 해당 변수 참조 가능 (default scope ==== root scope) 
+- 코드 어디에서나 해당 변수 참조 가능 (default scope === root scope) 
 
 - 함수 바깥이나 중괄호 바깥에 선언된 변수 (전역 변수)
 
@@ -102,7 +102,7 @@ foo();
 
 `var`로 선언된 변수나 `함수 선언식`으로 만들어진 함수는 `함수 레벨 스코프`를 갖는다.
 
-=> 함수 내부 전체에서 유요한 식별자가 됨 (위 코드에서 blue 출력)
+=> 함수 내부 전체에서 유효한 식별자가 됨 (위 코드에서 blue 출력)
 
 => 만약 `블록 레벨 스코프`였다면 `var color`는 `if`문이 끝날 때 파괴되어 에러 발생
 
