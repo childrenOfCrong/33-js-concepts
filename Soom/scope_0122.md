@@ -167,3 +167,15 @@ var x = 10;
 foo(); // 10
 bar(); // 15
 ```
+  
+
+### **Reference**
+
+1. You-Dont-Know-JS/scope & closures https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures
+
+2. What is Lexical Scope Anyway? http://astronautweb.co/javascript-lexical-scope/
+
+3. 자바스크립트의 스코프와 클로저 https://meetup.toast.com/posts/86
+
+4. Scope and the JavaScript Compiler — Kyle Simpson — Frontend Masters
+ https://www.youtube.com/watch?v=nRZri_CHqnA
