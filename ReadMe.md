@@ -33,7 +33,7 @@
 |18|190212|토르코| **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**|
 |19|190115|헤드| **[map, reduce, filter](#19-map-reduce-filter)**|
 |20|190212|비센스| **[Pure Functions, Side Effects and State Mutation](#20-pure-functions-side-effects-and-state-mutation)**|
-|21|190115|토르코|**[Closures](#21-closures)**|
+|21|||**[Closures](#21-closures)**|
 |22|190212|카카| **[High Order Functions](#22-high-order-functions)**|
 |23||| **[Recursion](#23-recursion)**|
 |24||| **[Collections and Generators](#24-collections-and-generators)**|
