@@ -28,13 +28,13 @@
 |13|190110|헤드&토르코|**[DOM and Layout Trees](#13-dom-and-layout-trees)**|
 |14|190129|비센스| **[Factories and Classes](#14-factories-and-classes)**|
 |15|190129|토르코| **[this, call, apply and bind](#15-this-call-apply-and-bind)**|
-|16|190212|숨| **[new, Constructor, instanceof and Instances](#16-new-constructor-instanceof-and-instances)**|
+|16||| **[new, Constructor, instanceof and Instances](#16-new-constructor-instanceof-and-instances)**|
 |17|190212|헤드| **[Prototype Inheritance and Prototype Chain](#17-prototype-inheritance-and-prototype-chain)**|
-|18|190212|토르코| **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**|
+|18||| **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**|
 |19|190115|헤드| **[map, reduce, filter](#19-map-reduce-filter)**|
 |20|190212|비센스| **[Pure Functions, Side Effects and State Mutation](#20-pure-functions-side-effects-and-state-mutation)**|
-|21|||**[Closures](#21-closures)**|
-|22|190212|카카| **[High Order Functions](#22-high-order-functions)**|
+|21|190115|토르코|**[Closures](#21-closures)**|
+|22||| **[High Order Functions](#22-high-order-functions)**|
 |23||| **[Recursion](#23-recursion)**|
 |24||| **[Collections and Generators](#24-collections-and-generators)**|
 |25|190115|비센스| **[Promises](#25-promises)**|
