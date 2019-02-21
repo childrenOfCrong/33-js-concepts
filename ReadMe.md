@@ -30,13 +30,13 @@
 |15|190129|토르코| **[this, call, apply and bind](#15-this-call-apply-and-bind)**|
 |16||| **[new, Constructor, instanceof and Instances](#16-new-constructor-instanceof-and-instances)**|
 |17|190212|헤드| **[Prototype Inheritance and Prototype Chain](#17-prototype-inheritance-and-prototype-chain)**|
-|18||| **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**|
+|18|190227|비센스| **[Object.create and Object.assign](#18-objectcreate-and-objectassign)**|
 |19|190115|헤드| **[map, reduce, filter](#19-map-reduce-filter)**|
 |20|190212|비센스| **[Pure Functions, Side Effects and State Mutation](#20-pure-functions-side-effects-and-state-mutation)**|
 |21|190115|토르코|**[Closures](#21-closures)**|
-|22||| **[High Order Functions](#22-high-order-functions)**|
-|23||| **[Recursion](#23-recursion)**|
-|24||| **[Collections and Generators](#24-collections-and-generators)**|
+|22|X|X| **[High Order Functions](#22-high-order-functions)**|
+|23|190227|헤드| **[Recursion](#23-recursion)**|
+|24|190227|윤| **[Collections and Generators](#24-collections-and-generators)**|
 |25|190115|비센스| **[Promises](#25-promises)**|
 |26||| **[async/await](#26-asyncawait)**|
 |27||| **[Data Structures](#27-data-structures)**|
